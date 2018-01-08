@@ -21,7 +21,7 @@ return {
 		'DarkroomPrintingTagset.lua', -- File to register Metatags set
 	},
 
-	VERSION = { major=1, minor=0, revision=0, build=1, }, -- Versioning
+	VERSION = { major=1, minor=1, revision=0, build=2, }, -- Versioning
 
 }
 

@@ -6,5 +6,6 @@
 "$$$/darkroomnotebook/meta/ContrastFilter=Contrast filter"
 "$$$/darkroomnotebook/meta/Paper=Paper"
 "$$$/darkroomnotebook/meta/Size=Size"
-"$$$/darkroomnotebook/meta/Chemicals=Chemicals"
+"$$$/darkroomnotebook/meta/dev_Chemicals=Chemicals"
+"$$$/darkroomnotebook/meta/Toning=Toning"
 "$$$/darkroomnotebook/meta/Notes=Notes"

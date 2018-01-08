@@ -59,8 +59,15 @@ return {
 			browsable = true,
 		},
 		{
-			id = 'chemicals',
-			title = LOC "$$$/darkroomnotebook/meta/Chemicals=Chemicals",
+			id = 'dev_chemicals',
+			title = LOC "$$$/darkroomnotebook/meta/dev_Chemicals=Chemicals",
+			dataType = 'string', 
+			searchable = true,
+			browsable = true,
+		},
+		{
+			id = 'toning',
+			title = LOC "$$$/darkroomnotebook/meta/Toning=Toning",
 			dataType = 'string', 
 			searchable = true,
 			browsable = true,
@@ -72,7 +79,7 @@ return {
 		},
 	},
 	
-	schemaVersion = 1,
+	schemaVersion = 2,
 
 
 }

@@ -16,5 +16,8 @@ here -> http://www.gnu.org/licenses/.
 
 **CHANGELOG**
 
+#### V 1.1
+Added "Toning" meta
+
 #### V.1.0
 First version 
