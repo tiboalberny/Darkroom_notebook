@@ -24,7 +24,7 @@ return {
 		'DarkroomAllTagset.lua',
 	},
 
-	VERSION = { major=1, minor=2, revision=0, build=3, }, -- Versioning
+	VERSION = { major=1, minor=3, revision=0, build=4, }, -- Versioning
 
 }
 

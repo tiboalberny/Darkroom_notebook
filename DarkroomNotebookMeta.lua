@@ -100,6 +100,13 @@ return {
 			browsable = true,
 		},
 		{
+			id = 'print_contactsheetnb',
+			title = LOC "$$$/darkroomnotebook/meta/print_ContactSheetNb=Contact sheet number",
+			dataType = 'string', 
+			searchable = true,
+			browsable = true,
+		},
+		{
 			id = 'print_notes',
 			title = LOC "$$$/darkroomnotebook/meta/print_Notes=Notes",
 			dataType = 'string', 

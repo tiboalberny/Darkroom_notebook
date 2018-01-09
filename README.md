@@ -15,6 +15,9 @@ here -> http://www.gnu.org/licenses/.
 *More infos on this plugin : http://tiboalberny.com/darkroom-notebook-lightroom-plugin/*
 
 **CHANGELOG**
+#### V 1.3
+Added Contact Sheet number to the Printing metatag set to help archiving
+
 #### V 1.2
 Added 2 new metatag sets : Darkroom Camera Notebook & Darkroom Developing Tagset with news fields
 

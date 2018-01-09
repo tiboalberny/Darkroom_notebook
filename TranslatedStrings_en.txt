@@ -13,6 +13,7 @@
 "$$$/darkroomnotebook/meta/print_Size=Size"
 "$$$/darkroomnotebook/meta/print_Chemicals=Chemicals"
 "$$$/darkroomnotebook/meta/print_Toning=Toning"
+"$$$/darkroomnotebook/meta/print_ContactSheetNb=Contact sheet number"
 "$$$/darkroomnotebook/meta/print_Notes=Notes"
 "$$$/darkroomnotebook/meta/cam_brand=Brand",
 "$$$/darkroomnotebook/meta/cam_model=Model"

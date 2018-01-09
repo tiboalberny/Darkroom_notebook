@@ -37,6 +37,7 @@ return {
 		'com.TiboAlberny.darkroom_notebook.print_size',
 		'com.TiboAlberny.darkroom_notebook.print_chemicals',
 		'com.TiboAlberny.darkroom_notebook.print_toning',
+		'com.TiboAlberny.darkroom_notebook.print_contactsheetnb',
 		'com.TiboAlberny.darkroom_notebook.print_notes',
 		}, 
 }

@@ -13,6 +13,7 @@
 "$$$/darkroomnotebook/meta/print_Size=Format"
 "$$$/darkroomnotebook/meta/print_Chemicals=Chimie"
 "$$$/darkroomnotebook/meta/print_Toning=Virage"
+"$$$/darkroomnotebook/meta/print_ContactSheetNb=N° Planche contact"
 "$$$/darkroomnotebook/meta/print_Notes=Notes"
 "$$$/darkroomnotebook/meta/cam_brand=Marque",
 "$$$/darkroomnotebook/meta/cam_model=Modèle"
