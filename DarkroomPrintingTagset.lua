@@ -1,10 +1,1 @@
---[[----------------------------------------------------------------------------
-
-Darkroom Notebook Plugin
-
-------------------------------------------------------------------------------]]
-return {
-title = "Darkroom Notebook", 
-id = 'Darkroom_Notebook',
-items = {'com.TiboAlberny.darkroom_notebook.*', }, 
-}
+--[[----------------------------------------------------------------------------Darkroom Notebook Plugin------------------------------------------------------------------------------]]return {	id = 'Darkroom_Print_Notebook',	title = "Darkroom Printing Notebook", 	items = {'com.TiboAlberny.darkroom_notebook.print_enlarger',		'com.TiboAlberny.darkroom_notebook.print_lense',		'com.TiboAlberny.darkroom_notebook.print_aperture',		'com.TiboAlberny.darkroom_notebook.print_time',		'com.TiboAlberny.darkroom_notebook.print_contrast',		'com.TiboAlberny.darkroom_notebook.print_paper',		'com.TiboAlberny.darkroom_notebook.print_size',		'com.TiboAlberny.darkroom_notebook.print_chemicals',		'com.TiboAlberny.darkroom_notebook.print_toning',		'com.TiboAlberny.darkroom_notebook.print_notes',		 }, }

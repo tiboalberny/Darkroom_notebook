@@ -15,13 +15,16 @@ return {
 	LrPluginInfoUrl = "http://tiboalberny.com/darkroom-notebook-lightroom-plugin/", -- Plugin's webpage
 	
 
-	 LrMetadataProvider = 'DarkroomPrintingMeta.lua', -- File to describe new meta
+	LrMetadataProvider = 'DarkroomNotebookMeta.lua',
 
 	 LrMetadataTagsetFactory = {
-		'DarkroomPrintingTagset.lua', -- File to register Metatags set
+	 	'DarkroomCameraTagset.lua',
+	    'DarkroomDevelopingTagset.lua',
+		'DarkroomPrintingTagset.lua', 
+		'DarkroomAllTagset.lua',
 	},
 
-	VERSION = { major=1, minor=1, revision=0, build=2, }, -- Versioning
+	VERSION = { major=1, minor=2, revision=0, build=3, }, -- Versioning
 
 }
 
