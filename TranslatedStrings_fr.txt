@@ -25,9 +25,9 @@
 "$$$/darkroomnotebook/meta/cam_Notes=Notes"
 "$$$/darkroomnotebook/meta/dev_Film=Pellicule"
 "$$$/darkroomnotebook/meta/dev_Asa=ASA / ISO"
-"$$$/darkroomnotebook/meta/dev_PushPull=Pousser / Tirer"
+"$$$/darkroomnotebook/meta/dev_PushPull=Pousser / Retenir"
 "$$$/darkroomnotebook/meta/dev_Chemical=Chimie"
-"$$$/darkroomnotebook/meta/dev_Standev=Dev. debout"
+"$$$/darkroomnotebook/meta/dev_Standev=Stand dév."
 "$$$/darkroomnotebook/meta/dev_Dilution=Dilution"
 "$$$/darkroomnotebook/meta/dev_DevTime=Temps"
 "$$$/darkroomnotebook/meta/dev_DevTemp=Température",

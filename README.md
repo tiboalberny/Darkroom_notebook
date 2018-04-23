@@ -15,6 +15,10 @@ here -> http://www.gnu.org/licenses/.
 *More infos on this plugin : http://tiboalberny.com/darkroom-notebook-lightroom-plugin/*
 
 **CHANGELOG**
+#### V 1.3.1
+Corrections on the french translation
+Updated meta schema version to v4
+
 #### V 1.3
 Added Contact Sheet number to the Printing metatag set to help archiving
 

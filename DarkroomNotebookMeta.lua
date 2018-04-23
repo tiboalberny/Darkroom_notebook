@@ -240,7 +240,7 @@ return {
 		
 	},
 	
-	schemaVersion = 3,
+	schemaVersion = 4,
 
 
 }
