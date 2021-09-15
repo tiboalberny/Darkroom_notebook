@@ -12,7 +12,7 @@ here -> http://www.gnu.org/licenses/.
 
 
 ### Developped with Lightroom SDK v6 
-*More infos on this plugin : http://tiboalberny.com/darkroom-notebook-lightroom-plugin/*
+*More infos on this plugin : https://hostophoto.fr/blog/logiciel/darkroom-notebook-plugin-lightroom-pour-la-photo-argentique*
 
 **CHANGELOG**
 #### V 1.3.2
