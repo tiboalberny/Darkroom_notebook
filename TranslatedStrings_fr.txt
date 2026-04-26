@@ -5,7 +5,7 @@
 "$$$/darkroomnotebook/No=Non"
 "$$$/darkroomnotebook/Yes=Oui"
 "$$$/darkroomnotebook/meta/print_Enlarger=Agrandisseur"
-"$$$/darkroomnotebook/meta/print_Lense=Objectif"
+"$$$/darkroomnotebook/meta/print_Lens=Objectif"
 "$$$/darkroomnotebook/meta/print_Aperture=Ouverture"
 "$$$/darkroomnotebook/meta/print_Time=Temps"
 "$$$/darkroomnotebook/meta/print_ContrastFilter=Filtre de contraste"
@@ -15,9 +15,9 @@
 "$$$/darkroomnotebook/meta/print_Toning=Virage"
 "$$$/darkroomnotebook/meta/print_ContactSheetNb=N° Planche contact"
 "$$$/darkroomnotebook/meta/print_Notes=Notes"
-"$$$/darkroomnotebook/meta/cam_brand=Marque",
+"$$$/darkroomnotebook/meta/cam_brand=Marque"
 "$$$/darkroomnotebook/meta/cam_model=Modèle"
-"$$$/darkroomnotebook/meta/cam_Lense=Objectif"
+"$$$/darkroomnotebook/meta/cam_Lens=Objectif"
 "$$$/darkroomnotebook/meta/cam_Aperture=Ouverture"
 "$$$/darkroomnotebook/meta/cam_Speed=Vitesse"
 "$$$/darkroomnotebook/meta/cam_filter=Filtre"
@@ -30,5 +30,5 @@
 "$$$/darkroomnotebook/meta/dev_Standev=Stand dév."
 "$$$/darkroomnotebook/meta/dev_Dilution=Dilution"
 "$$$/darkroomnotebook/meta/dev_DevTime=Temps"
-"$$$/darkroomnotebook/meta/dev_DevTemp=Température",
+"$$$/darkroomnotebook/meta/dev_DevTemp=Température"
 "$$$/darkroomnotebook/meta/dev_Notes=Notes"

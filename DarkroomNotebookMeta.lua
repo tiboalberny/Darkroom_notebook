@@ -8,7 +8,7 @@ return {
 
 	metadataFieldsForPhotos = {
 
-		{ id = 'DPNphotoId',},
+		{ id = 'DPNphotoId', }, -- internal record ID, not displayed
 
 		{ 
 			id='cam_title', 
@@ -45,7 +45,7 @@ return {
 		},
 		{
 			id = 'print_lense',
-			title = LOC "$$$/darkroomnotebook/meta/print_Lense=Lense",
+			title = LOC "$$$/darkroomnotebook/meta/print_Lens=Lens",
 			dataType = 'string', 
 			searchable = true,
 			browsable = true,
@@ -109,7 +109,9 @@ return {
 		{
 			id = 'print_notes',
 			title = LOC "$$$/darkroomnotebook/meta/print_Notes=Notes",
-			dataType = 'string', 
+			dataType = 'string',
+			searchable = true,
+			browsable = true,
 		},
 
 		--  Camera metas 
@@ -130,7 +132,7 @@ return {
 		},
 		{
 			id = 'cam_lense',
-			title = LOC "$$$/darkroomnotebook/meta/cam_Lense=Camera Lense",
+			title = LOC "$$$/darkroomnotebook/meta/cam_Lens=Camera Lens",
 			dataType = 'string',
 			searchable = true,
 			browsable = true,
@@ -158,7 +160,7 @@ return {
 		},
 		{
 			id = 'cam_nd',
-			title = LOC "$$$/darkroomnotebook/meta/cam_ND=Filtre ND",
+			title = LOC "$$$/darkroomnotebook/meta/cam_ND=ND filter",
 			dataType = 'string',
 			searchable = true,
 			browsable = true,
@@ -203,7 +205,9 @@ return {
 		{
 			id = 'dev_standdev',
 			title = LOC "$$$/darkroomnotebook/meta/dev_Standev=Stand developing",
-			dataType = 'enum', 
+			dataType = 'enum',
+			searchable = true,
+			browsable = true,
 			values = {
 						{ value = 'no', title = LOC "$$$/darkroomnotebook/No=No", },
 						{ value = 'yes', title = LOC "$$$/darkroomnotebook/Yes=Yes", },

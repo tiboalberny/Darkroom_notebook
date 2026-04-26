@@ -8,7 +8,8 @@ return {
 	title = "Darkroom Camera Notebook", 
 	
 	items = {
-		'com.TiboAlberny.darkroom_notebook.cam_brand', 
+		'com.TiboAlberny.darkroom_notebook.cam_title',
+		'com.TiboAlberny.darkroom_notebook.cam_brand',
 		'com.TiboAlberny.darkroom_notebook.cam_model', 
 		'com.TiboAlberny.darkroom_notebook.cam_lense', 
 		'com.TiboAlberny.darkroom_notebook.cam_aperture', 

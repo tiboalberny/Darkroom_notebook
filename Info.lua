@@ -7,12 +7,12 @@ Darkroom Notebook Plugin
 return {
 	
 	LrSdkVersion = 6.0,
-	LrSdkMinimumVersion = 1.3, -- minimum SDK version required by this plug-in
+	LrSdkMinimumVersion = 5.0, -- minimum SDK version required by this plug-in
 
 	LrToolkitIdentifier = 'com.TiboAlberny.darkroom_notebook', -- Name for the Toolkit 
 
 	LrPluginName = LOC "$$$/darkroomnotebook/PluginName=Darkroom Notebook", -- Plugin's name
-	LrPluginInfoUrl = "http://tiboalberny.com/darkroom-notebook-lightroom-plugin/", -- Plugin's webpage
+	LrPluginInfoUrl = "https://tiboalberny.com/darkroom-notebook-lightroom-plugin/", -- Plugin's webpage
 	
 
 	LrMetadataProvider = 'DarkroomNotebookMeta.lua',

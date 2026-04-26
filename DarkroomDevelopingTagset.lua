@@ -8,7 +8,8 @@ return {
 	title = "Darkroom Developing Notebook", 
 	
 	items = {
-		'com.TiboAlberny.darkroom_notebook.dev_film', 
+		'com.TiboAlberny.darkroom_notebook.dev_title',
+		'com.TiboAlberny.darkroom_notebook.dev_film',
 		'com.TiboAlberny.darkroom_notebook.dev_asa', 
 		'com.TiboAlberny.darkroom_notebook.dev_pushpull', 
 		'com.TiboAlberny.darkroom_notebook.dev_chemicals', 
