@@ -364,7 +364,7 @@ return {
 
 	schemaVersion = 7,
 
-	updateFromVersion = function(catalog, previousVersion)
+	updateFromEarlierSchemaVersion = function(catalog, previousVersion)
 		if previousVersion < 7 then
 			local photos = catalog:getAllPhotos()
 			catalog:withWriteAccessDo("Darkroom Notebook: migrate lens field IDs", function()
