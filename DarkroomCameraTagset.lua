@@ -12,7 +12,7 @@ return {
 		'com.TiboAlberny.darkroom_notebook.cam_format',
 		'com.TiboAlberny.darkroom_notebook.cam_brand',
 		'com.TiboAlberny.darkroom_notebook.cam_model',
-		'com.TiboAlberny.darkroom_notebook.cam_lense',
+		'com.TiboAlberny.darkroom_notebook.cam_lens',
 		'com.TiboAlberny.darkroom_notebook.cam_aperture',
 		'com.TiboAlberny.darkroom_notebook.cam_speed',
 		'com.TiboAlberny.darkroom_notebook.cam_frame',

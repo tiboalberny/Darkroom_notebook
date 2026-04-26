@@ -8,8 +8,6 @@ return {
 
 	metadataFieldsForPhotos = {
 
-		{ id = 'DPNphotoId', }, -- internal record ID, not displayed
-
 		{
 			id = 'cam_title',
 			title = LOC "$$$/darkroomnotebook/cam_title=Camera Notebook",
@@ -66,7 +64,7 @@ return {
 			browsable = true,
 		},
 		{
-			id = 'cam_lense',
+			id = 'cam_lens',
 			title = LOC "$$$/darkroomnotebook/meta/cam_Lens=Camera Lens",
 			dataType = 'string',
 			searchable = true,
@@ -141,7 +139,7 @@ return {
 		{
 			id = 'dev_asa',
 			title = LOC "$$$/darkroomnotebook/meta/dev_Asa=ASA / ISO",
-			dataType = 'string',
+			dataType = 'number',
 			searchable = true,
 			browsable = true,
 		},
@@ -234,7 +232,7 @@ return {
 			browsable = true,
 		},
 		{
-			id = 'print_lense',
+			id = 'print_lens',
 			title = LOC "$$$/darkroomnotebook/meta/print_Lens=Lens",
 			dataType = 'string',
 			searchable = true,
@@ -243,7 +241,7 @@ return {
 		{
 			id = 'print_height',
 			title = LOC "$$$/darkroomnotebook/meta/print_Height=Head height",
-			dataType = 'string',
+			dataType = 'number',
 			searchable = true,
 			browsable = true,
 		},
@@ -264,9 +262,23 @@ return {
 		{
 			id = 'print_contrast',
 			title = LOC "$$$/darkroomnotebook/meta/print_ContrastFilter=Contrast filter",
-			dataType = 'string',
+			dataType = 'enum',
 			searchable = true,
 			browsable = true,
+			values = {
+				{ value = '00',  title = "00" },
+				{ value = '0',   title = "0" },
+				{ value = '0.5', title = "0.5" },
+				{ value = '1',   title = "1" },
+				{ value = '1.5', title = "1.5" },
+				{ value = '2',   title = "2" },
+				{ value = '2.5', title = "2.5" },
+				{ value = '3',   title = "3" },
+				{ value = '3.5', title = "3.5" },
+				{ value = '4',   title = "4" },
+				{ value = '4.5', title = "4.5" },
+				{ value = '5',   title = "5" },
+			},
 		},
 		{
 			id = 'print_grade',
@@ -285,9 +297,20 @@ return {
 		{
 			id = 'print_size',
 			title = LOC "$$$/darkroomnotebook/meta/print_Size=Size",
-			dataType = 'string',
+			dataType = 'enum',
 			searchable = true,
 			browsable = true,
+			values = {
+				{ value = '4x5',   title = "4×5 in" },
+				{ value = '5x7',   title = "5×7 in" },
+				{ value = '8x10',  title = "8×10 in" },
+				{ value = '11x14', title = "11×14 in" },
+				{ value = '16x20', title = "16×20 in" },
+				{ value = '20x24', title = "20×24 in" },
+				{ value = '30x40', title = "30×40 cm" },
+				{ value = '40x50', title = "40×50 cm" },
+				{ value = 'other', title = LOC "$$$/darkroomnotebook/format/other=Other" },
+			},
 		},
 		{
 			id = 'print_devtime',
@@ -320,7 +343,7 @@ return {
 		{
 			id = 'print_contactsheetnb',
 			title = LOC "$$$/darkroomnotebook/meta/print_ContactSheetNb=Contact sheet number",
-			dataType = 'string',
+			dataType = 'number',
 			searchable = true,
 			browsable = true,
 		},
@@ -332,8 +355,31 @@ return {
 			browsable = true,
 		},
 
+		-- Deprecated fields retained so existing catalog data is not lost.
+		-- Data is migrated to cam_lens / print_lens by updateFromVersion.
+		{ id = 'cam_lense',   dataType = 'string' },
+		{ id = 'print_lense', dataType = 'string' },
+
 	},
 
-	schemaVersion = 6,
+	schemaVersion = 7,
+
+	updateFromVersion = function(catalog, previousVersion)
+		if previousVersion < 7 then
+			local photos = catalog:getAllPhotos()
+			catalog:withWriteAccessDo("Darkroom Notebook: migrate lens field IDs", function()
+				for _, photo in ipairs(photos) do
+					local camVal = photo:getPropertyForPlugin(_PLUGIN, 'cam_lense')
+					if camVal and camVal ~= '' then
+						photo:setPropertyForPlugin(_PLUGIN, 'cam_lens', camVal)
+					end
+					local printVal = photo:getPropertyForPlugin(_PLUGIN, 'print_lense')
+					if printVal and printVal ~= '' then
+						photo:setPropertyForPlugin(_PLUGIN, 'print_lens', printVal)
+					end
+				end
+			end)
+		end
+	end,
 
 }

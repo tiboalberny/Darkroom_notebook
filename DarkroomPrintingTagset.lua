@@ -10,7 +10,7 @@ return {
 	items = {
 		'com.TiboAlberny.darkroom_notebook.print_title',
 		'com.TiboAlberny.darkroom_notebook.print_enlarger',
-		'com.TiboAlberny.darkroom_notebook.print_lense',
+		'com.TiboAlberny.darkroom_notebook.print_lens',
 		'com.TiboAlberny.darkroom_notebook.print_height',
 		'com.TiboAlberny.darkroom_notebook.print_aperture',
 		'com.TiboAlberny.darkroom_notebook.print_time',
